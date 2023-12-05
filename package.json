@@ -1,0 +1,43 @@
+{
+  "name": "pratice_project",
+  "version": "1.0.0",
+  "description": "This is a test project'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "eshitabiswas965@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/your-repository.git"
+  },
+  "keywords": [
+    "[\"awesome\"",
+    "\"package\"",
+    "\"amazing\"]"
+  ],
+  "bugs": {
+    "url": "https://github.com/your-username/your-repository/issues"
+  },
+  "homepage": "https://github.com/your-username/your-repository#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "bcrypt": "^5.1.1",
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^17.2.0",
+    "inert": "^5.1.3",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
+    "sequelize": "^6.35.1",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
